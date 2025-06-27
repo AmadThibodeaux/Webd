@@ -1,0 +1,5 @@
+<form action="script. php" method="post"
+First name:= <input name="fname" id="fname">
+Last name:= <input name="lname" id="lname">
+<input type="submit" value="submit">
+</form>
