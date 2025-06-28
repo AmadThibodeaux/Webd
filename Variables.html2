@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <title>Variables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Amad</h1>
+</head>
+<body>
+
+
+    <Header> <h2> <b>Amad.com</b></h2> 
+</Header>
+    
+     <p> 1506 COMMERCIAL ST
+         <br>
+    APT 1003
+         <br>
+    SAN DIEGO,CA
+         <br>
+         92113 
+         <br>
+<number src= 2136967665 numfmt_get_attribute/>
+</p>
+    
+</body>
+</html>
