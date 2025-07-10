@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path Of Light Yoga Studio</title>:: Classes 
+</head>
+<body>header>h1{}
+    <header><h1>path of light studio</h1></header>
+
+    <nav><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">classes</a></li>
+        <li><a href="schedule.html">schedule</a></li>
+        <li><a href="contact.html">contact</a></li>
+    </ul></nav>
+
+    <main>
+        <h2>Yoga Classes</h2>
+    <ol>
+        <dt><strong>Gentle Hatha Yoga</strong></dt>
+        <dd>Intended for beginners and anyone wishing a grounded foundation in practice of yoga, 
+            this 60 minute class of poses and slow movement focuses on asana (proper alignment and posture), pranayama (breath work), and guided meditation to foster your mind and body connection.
+        </dd>
+        <dt><strong>Vinyasa Yoga</strong></dt>
+        <dd>Although designed for intermediated to advanced students, beginners are welcome to sample 
+            this 60 minute class that focuses on breath-synchronized movement &mdash; you will inhale and exhale as you flow energetically through yoga poses.
+        </dd>
+        <dt><strong>Restorative Yoga</strong></dt>
+        <dd>This 90 minutes class features very slow movement and long poses that 
+            are supported by a chair or wall. This calming, restorative experience is suitable for 
+        students of any level or experience. This practice can be a perfect way to help rehabilitate an injury. </dd>
+    </ol>
+    
+</main>
+
+<footer><p><small><i>copyright &copy;2021 Path Of Light Yoga Studio</i></small><br>Amad Thibodeaux</p></footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
